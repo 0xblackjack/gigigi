@@ -1,2 +1,2 @@
 # gigigi
-telegram mini app #react #vite
+telegram mini app #react #vite 
