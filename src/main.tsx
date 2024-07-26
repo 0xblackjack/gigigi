@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import WebApp from '@twa-dev/sdk'
 
-WebApp.ready(); // initialize the SDK
+WebApp.ready(); // initialize TG APP SDK
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
