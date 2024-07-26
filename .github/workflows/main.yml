@@ -34,10 +34,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'pnpm'
-          cache-dependency-path: './'
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: corepack prepare pnpm@latest --activate          
       - name: Verify pnpm installation
         run: pnpm --version
       - name: Install dependencies
